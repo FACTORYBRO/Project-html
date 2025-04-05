@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.prompt-extralight {
+    font-family: "Prompt", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  body {
+    font-family: "Promt", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    background-color: #f0f0f0;
+  }
+
+nav {
+    background-color: #333;
+    padding: 1%;
+    display: flex;}
+
+.logo a {
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+.menu {
+    display: flex;
+}
+.menu li {
+    margin: 0 1rem;
+    list-style: none;
+    align-items: center;
+}
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+selection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+}
+selection p {
+    padding: 1rem 0;
+
+}
+section {
+    text-align: left;
+    margin: 2rem 2rem;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}

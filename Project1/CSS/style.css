@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  .prompt-extralight {
+    font-family: "Prompt", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  body {
+    font-family: "Promt", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    background-color: #f0f0f0;
+  }
+
+nav {
+    background-color: #333;
+    padding: 1%;
+    display: flex;}
+
+.logo a {
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+}
+.menu li {
+    margin: 0 1rem;
+    list-style: none;
+    align-items: center;
+}
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    background-color: #f0f0f0;
+}
+.hero-con {
+    display: flex;
+}
+.hero-info {
+    width: 100%;
+    padding: 2rem;
+}
+.hero-info h3 {
+    font-size: 2rem;
+}
+.hero-info p {
+    margin: 1rem 0  ;
+}
+.hero-img img {
+    width: 100%;
+    padding: 2rem;
+    border-radius: 50px;
+}
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+section div {
+    padding: 20px;
+}
+section div h3 {
+    margin: 1rem 0 ;
+}
+section div p {
+    padding: 1rem 0;
+}
+section img {
+    width: 100%;
+    padding: 0 ;
+    border-radius: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
